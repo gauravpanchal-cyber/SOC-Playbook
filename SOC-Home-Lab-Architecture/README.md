@@ -39,6 +39,22 @@ The architecture follows these principles:
 
 ---
 
+
+
+# 🛡 Security Goals
+
+The SOC lab architecture is designed to achieve the following defensive outcomes:
+
+- Centralise security telemetry for improved visibility.
+- Detect authentication abuse and brute-force attempts.
+- Monitor process execution and privilege escalation activity.
+- Identify reconnaissance and suspicious outbound connections.
+- Enable structured investigation workflows aligned with Tier 1 SOC operations.
+
+The lab prioritises detection capability and investigation readiness over infrastructure complexity.
+
+---
+
 # 📊 SOC Monitoring Use Cases
 
 The following security-monitoring use cases define the detection objectives for this lab environment. Each use case represents a common Tier 1 SOC scenario and directly influences the required telemetry and architecture design.
@@ -105,14 +121,6 @@ Detailed design documents are stored under `planning/`:
 - `planning/network_design.md`
 - `planning/log_sources.md`
 - `planning/threat_simulation_plan.md`
-
-
-
-
-
-
-
-
 
 
 
