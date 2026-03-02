@@ -103,9 +103,9 @@ Detailed design documents are stored under `planning/`:
 
 - `planning/vm_specifications.md`
 - `planning/network_design.md`
-- `planning/telemetry_plan.md`
+- `planning/log_sources.md`
 - `planning/threat_simulation_plan.md`
-- `planning/data_flow_plan.md`
+
 
 
 
