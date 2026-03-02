@@ -1,8 +1,7 @@
-# SOC-Playbook
-Hands-on SOC learning, incident analysis, and SIEM investigations while preparing for a SOC / Blue Team role.
+
 # SOC Playbook
 
-This repository documents my hands-on learning and incident analysis while preparing for a SOC / Blue Team role.
+This repository documents my hands-on learning and incident analysis as I prepare for a SOC/Blue Team role.
 
 ## What this repository contains
 - Incident investigation write-ups
