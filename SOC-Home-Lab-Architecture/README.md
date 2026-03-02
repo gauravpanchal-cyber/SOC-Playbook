@@ -32,7 +32,7 @@ The lab is designed for:
 The architecture follows these principles:
 
 - **Isolation** – Internal network prevents unintended exposure  
-- **Observability** – High-quality logs prioritized (endpoint + authentication)  
+- **Observability** – High-quality logs prioritised (endpoint + authentication)  
 - **Detection-first mindset** – Infrastructure built to support detection engineering  
 - **Scalability** – Designed to expand into cloud, AI, and identity layers
 
