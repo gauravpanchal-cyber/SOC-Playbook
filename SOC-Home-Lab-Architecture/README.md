@@ -93,8 +93,12 @@ This lab is built around three core components:
 
 An architecture diagram and network design diagram are included in the `diagrams/` directory:
 
-- `diagrams/soc_architecture.png`
-- `diagrams/network_design.png`
+- ## Network Design Diagram
+
+  ![Network Design](diagrams/network_diagram.png)
+- ## SOC Architecture Diagram
+
+  ![SOC Architecture](diagrams/soc_architecture.png)
 
 ---
 
