@@ -13,7 +13,7 @@ This document defines the planned virtual machines for the SOC home lab, includi
 |--------|------|------------------|-----|-----|---------|---------|
 | Kali-Attacker | Adversary Simulation | Kali Linux | 2vCPU | 4 GB | 40 GB | Internal Network (SOC_LAB) |
 | Win-Endpoint | Monitored Endpoint | Windows 10 / 11 | 2vCPU | 4 GB | 60 GB | Internal Network (SOC_LAB) |
-| Splunk-SIEM | Log Collection & Analysis | Ubuntu Server + Splunk Enterprise | 2vCPU | 6 GB | 60 GB | Internal Network (SOC_LAB) |
+| Splunk-SIEM | Log Collection & Analysis | Ubuntu Server + Splunk Enterprise | 2vCPU | 4 GB | 60 GB | Internal Network (SOC_LAB) |
 
 ---
 
