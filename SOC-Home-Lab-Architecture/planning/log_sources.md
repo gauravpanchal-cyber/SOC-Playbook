@@ -12,7 +12,6 @@ The focus is on high-value endpoint telemetry that enables authentication monito
 
 | Log Source | System | Purpose | Detection Use Case |
 |------------|--------|----------|--------------------|
-| auth.log | Linux Endpoint | SSH authentication monitoring | UC-01 |
 | Windows Security Log | Windows Endpoint | Logon & privilege monitoring | UC-02, UC-05 |
 | Sysmon – Process Creation | Windows Endpoint | Process execution visibility | UC-04 |
 | Sysmon – Network Connections | Windows Endpoint | Outbound traffic monitoring | UC-03, UC-06 |
