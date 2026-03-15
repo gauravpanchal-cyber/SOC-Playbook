@@ -13,7 +13,7 @@ Each simulation aligns with defined SOC monitoring use cases.
 
 | Attack Scenario | Tool Used | Target | Expected Log Artifact | Related Use Case |
 |----------------|-----------|--------|----------------------|------------------|
-| SSH Brute Force | Hydra | Windows Endpoint | Multiple failed login entries in auth.log | UC-01 |
+| SSH Brute Force | Hydra | Windows Endpoint | Multiple Windows Security Log events (Event ID 4625 – Failed Logon Attempts) | UC-01 |
 | RDP Brute Force | Hydra / Manual Attempts | Windows Endpoint | Event ID 4625 (Failed Logon) | UC-02 |
 | Port Scanning | Nmap | Endpoint | Multiple connection attempts / network logs | UC-03 |
 | Suspicious PowerShell Execution | Manual Execution | Windows Endpoint | Sysmon Event ID 1 (Process Creation) | UC-04 |
