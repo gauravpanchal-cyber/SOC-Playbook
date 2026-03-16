@@ -27,4 +27,4 @@ Planned Flow:
 
 Endpoint → Splunk Forwarder → Splunk Indexer
 
-Detailed SIEM implementation is handled in Phase 1.
+Detailed SIEM implementation is handled in [Phase 1](Phases/phase-1-siem-deployment).
