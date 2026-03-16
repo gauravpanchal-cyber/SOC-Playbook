@@ -239,7 +239,7 @@ disabled = false
 renderXml = true
 ```
 
-This configuration sends Windows Event Logs to the **windows** and **sysmon** indexes in Splunk. This inputs.conf file is available to download from [inputs.conf](Phases/phase-1-siem-deployment/configs/inputs.conf) file.
+This configuration sends Windows Event Logs to the **windows** and **sysmon** indexes in Splunk. This inputs.conf file is available to download from [inputs.conf](/Phases/phase-1-siem-deployment/configs/inputs.conf/) file.
 
 ---
 
