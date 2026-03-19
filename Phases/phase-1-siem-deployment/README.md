@@ -374,11 +374,7 @@ This phase establishes the **centralized log collection pipeline** required for 
 
 # Evidence
 
-Screenshots documenting the process are stored in:
-
-```
-./evidence/
-```
+Screenshots documenting the process are stored in: [assets](/Phases/phase-1-siem-deployment/assets).
 
 Examples include:
 
