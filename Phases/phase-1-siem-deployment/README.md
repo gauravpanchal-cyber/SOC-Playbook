@@ -322,6 +322,7 @@ Search query:
 ```
 index=windows
 ```
+<img width="1920" height="907" alt="index-windows" src="https://github.com/user-attachments/assets/5eb83483-cf92-48cd-840a-11c9ccaacb7d" />
 
 ---
 
@@ -332,31 +333,12 @@ Example query:
 ```
 index=sysmon EventCode=1
 ```
+<img width="1920" height="907" alt="sysmon-eventcode-1" src="https://github.com/user-attachments/assets/ba12384e-17e8-4c94-a05c-6d38a193ecf1" />
 
 EventCode 1 represents **Process Creation Events**.
 
 ---
 
-## Example Security Event
-
-A failed login event can be generated on Windows.
-
-Relevant Event ID:
-
-```
-4625
-```
-> reference to screenshot is pending
-Search query:
-
-```
-EventCode=4625
-```
-> reference to screenshot is pending
-
-This confirms that authentication events are captured by the SIEM.
-
----
 
 
 # 8. Outcome
@@ -381,7 +363,7 @@ Examples include:
 * Splunk installation
 * Splunk web dashboard
 * Data receiving configuration
-* Universal forwarder setup
+* Universal forwarder status
 * Sysmon installation
 * Windows log ingestion
 * Sysmon search queries
