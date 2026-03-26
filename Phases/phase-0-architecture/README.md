@@ -61,7 +61,7 @@ The following security-monitoring use cases define the detection objectives for 
 
 | Use Case ID | Scenario | Log Source Required | Detection Goal |
 |-------------|----------|--------------------|----------------|
-| UC-01 | SSH Brute Force Attempt | Windows Security Event Log | Detect repeated failed login attempts from a single source |
+| UC-01 | Brute Force Attempt | Windows Security Event Log | Detect repeated failed login attempts from a single source |
 | UC-02 | RDP Brute Force Attempt | Windows Security Logs | Identify abnormal authentication failures |
 | UC-03 | Network Port Scanning | Sysmon Network Logs / Firewall Logs | Detect reconnaissance activity and port enumeration |
 | UC-04 | Suspicious Process Execution | Sysmon Process Creation Logs | Monitor unusual command execution or encoded PowerShell |
