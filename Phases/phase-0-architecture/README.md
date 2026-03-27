@@ -61,12 +61,11 @@ The following security-monitoring use cases define the detection objectives for 
 
 | Use Case ID | Scenario | Log Source Required | Detection Goal |
 |-------------|----------|--------------------|----------------|
-| UC-01 | Brute Force Attempt | Windows Security Event Log | Detect repeated failed login attempts from a single source |
-| UC-02 | RDP Brute Force Attempt | Windows Security Logs | Identify abnormal authentication failures |
-| UC-03 | Network Port Scanning | Sysmon Network Logs / Firewall Logs | Detect reconnaissance activity and port enumeration |
-| UC-04 | Suspicious Process Execution | Sysmon Process Creation Logs | Monitor unusual command execution or encoded PowerShell |
-| UC-05 | Privilege Escalation Attempt | Windows Security Logs / Sysmon | Detect abnormal privilege assignments or elevation |
-| UC-06 | Suspicious Outbound Connection | Sysmon Network Logs | Identify potential command-and-control communication |
+| UC-01 | RDP Brute Force Attempt | Windows Security Logs | Identify abnormal authentication failures |
+| UC-02 | Network Port Scanning | Sysmon Network Logs / Firewall Logs | Detect reconnaissance activity and port enumeration |
+| UC-03 | Suspicious Process Execution | Sysmon Process Creation Logs | Monitor unusual command execution or encoded PowerShell |
+| UC-04 | Privilege Escalation Attempt | Windows Security Logs / Sysmon | Detect abnormal privilege assignments or elevation |
+| UC-05 | Suspicious Outbound Connection | Sysmon Network Logs | Identify potential command-and-control communication |
 
 These use cases are intentionally selected to simulate real-world SOC monitoring responsibilities. The lab architecture and telemetry planning are designed specifically to support the detection and investigation of these scenarios.
 
