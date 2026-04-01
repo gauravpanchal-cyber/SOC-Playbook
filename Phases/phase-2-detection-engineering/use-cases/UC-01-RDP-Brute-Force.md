@@ -31,7 +31,6 @@ hydra starts the brute force tool.
 
 During the attack, multiple authentication attempts were generated in a short period of time, and Hydra eventually identified the valid password for the target account.
 
->[Suggested screenshot placement: insert this image directly below the command explanation.](image will come here)
 <img width="4400" height="2475" alt="UC-02_00_attack_hydra_rdp_final" src="https://github.com/user-attachments/assets/20fad8dd-b976-46f1-a322-77501e25ec5b" />
 
 ---
@@ -66,7 +65,6 @@ Important observations from the raw events:
 
 These repeated failures from the same source form the initial brute force pattern.
 
->[Suggested screenshot placement: place this image immediately after the analyst observations.](second screenshot will come here)
 <img width="1920" height="1032" alt="UC-02_02_failed_logons_raw" src="https://github.com/user-attachments/assets/c6724ab4-7bee-497d-9419-8118347cb7fa" />
 
 ---
@@ -88,7 +86,6 @@ The event confirms the most relevant fields for this detection:
 
 This event-level analysis is important because it confirms which fields are actually populated in this lab environment before building the final SPL detection.
 
->[Suggested screenshot placement: place this image directly below the bullet list of key fields.](third_screenshot_will_come_here)
 <img width="1597" height="687" alt="UC-02_03_event_4625_fields" src="https://github.com/user-attachments/assets/8d035717-c6a7-4838-9554-bd9cac0f9cb7" />
 
 ---
@@ -124,15 +121,25 @@ A single failed login is common in normal environments. This query is designed t
 
 In this case, the query clearly identifies the victim_machine account being targeted from 192.168.100.10 / kali, with repeated failures grouped inside a 5-minute window.
 
->Suggested screenshot placement: place this image directly below the paragraph explaining why the detection works.
 <img width="1920" height="1032" alt="UC-02_04_detection_query_results" src="https://github.com/user-attachments/assets/51b4c87c-45af-42c4-bc84-f81a4dd6caa5" />
 
 ---
 
 ## 6. MITRE ATT&CK Mapping
-Tactic: Credential Access
-Technique: [T1110 — Brute Force](MItre_attack_relevant_link_will_come_here)
-Sub-technique: T1110.001 — Password Guessing
+
+- **Tactic:** Credential Access (TA0006)  
+- **Technique:** [T1110 — Brute Force](https://attack.mitre.org/techniques/T1110/)  
+- **Sub-technique:** [T1110.001 — Password Guessing](https://attack.mitre.org/techniques/T1110/001/)  
+
+### Context
+
+The simulated attack aligns with MITRE ATT&CK technique T1110.001 (Password Guessing), where an adversary performs repeated authentication attempts to gain access to a valid account.
+
+In this lab, the attacker used RDP (port 3389) to conduct a brute force attack against the Windows endpoint by attempting multiple username and password combinations.
+
+### Detection Relevance
+
+This behavior is identified through multiple failed login attempts recorded in Windows Security Event Logs (Event ID 4625). Monitoring such patterns enables detection of brute force attacks targeting remote access services.
 
 ---
 
